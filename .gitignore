@@ -1,0 +1,50 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# Ignore local configuration files
+web/src/main/resources/application-local.yml
+
+.log
+
+
+# 忽略所有日志文件和日志目录
+logs/
+*.log
+
+# 忽略具体的日志文件，防止其上传到 Git
+logs/novelreader.log
+logs/novelreader-*.log
+
+# 确保忽略 Logback 的默认日志路径
+spring.log
